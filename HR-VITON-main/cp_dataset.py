@@ -19,7 +19,7 @@ class CPDataset(data.Dataset):
         # base setting
         self.opt = opt
         self.root = opt.dataroot
-        self.datamode = opt.datamode # train or test or self-defined
+        self.datamode = opt.datamode 
         self.data_list = opt.data_list
         self.fine_height = opt.fine_height
         self.fine_width = opt.fine_width

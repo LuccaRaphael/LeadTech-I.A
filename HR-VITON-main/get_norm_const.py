@@ -1,4 +1,4 @@
-# Calculate the normalization constant for discriminator rejection
+
 import torch
 import torch.nn as nn
 
